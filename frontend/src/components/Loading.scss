@@ -1,0 +1,40 @@
+.loading__main {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 100;
+  background-color: #edf2f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    position: absolute;
+    animation: spin 2s linear infinite;
+    border-radius: 50%;
+    height: 11rem;
+    width: 11rem;
+    border-top: 0.5rem solid #805ad5;
+    border-bottom: 0.5rem solid #805ad5;
+    @media screen and (min-width: 600px) {
+      height: 21rem;
+      width: 21rem;
+    }
+  }
+  img {
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    @media screen and (min-width: 600px) {
+      height: 20rem;
+      width: 20rem;
+    }
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
