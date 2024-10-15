@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+/* eslint-disable react-hooks/rules-of-hooks */
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Images } from "../../constants";
 import "./Header.scss";
 import { AppWrap } from "../../wrapper";
-import profile from "../../assets/profile.png";
+import profile from "../../assets/profile.webp";
 import Loading from "../../components/Loading";
 import ProfileImg from "./ProfileImg";
 

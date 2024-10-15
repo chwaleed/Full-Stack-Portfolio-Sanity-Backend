@@ -1,5 +1,4 @@
-import React from "react";
-import profile from "../../assets/profile.png";
+import profile from "../../assets/profile.webp";
 import "./Header.scss"; // Adjust path if necessary
 
 function ProfileImg() {
